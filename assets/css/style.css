@@ -11579,7 +11579,7 @@ p {
 } */
 
 .service-card:hover .body .subtitle {
-  bottom: 7px;
+  /* bottom: 7px; */
   opacity: 1;
   visibility: visible;
 }
