@@ -3,6 +3,18 @@
   color: white;
 }
 
+a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#topPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #profilePic {
   width: 150px;
   height: 150px;
@@ -23,9 +35,9 @@
 #projectLine {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 990px;
-  height: 500px;
-  gap: 15px;
+  width: 98%;
+  margin: 10px;
+  gap: 10px;
 }
 
 .projectCard {
@@ -33,10 +45,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 300px;
+  width: 30%;
 }
 
 #projectCard img {
-  width: 200px;
+  width: 300px;
   height: 200px;
+}
+
+p {
+  overflow-y: auto;
 }
