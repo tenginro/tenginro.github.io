@@ -1,0 +1,31 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+#skillsTable {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#skillsTable img {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+
+#projectLine {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  height: 40vh;
+  gap: 20px;
+}
+
+#projectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
