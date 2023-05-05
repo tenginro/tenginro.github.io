@@ -11553,6 +11553,7 @@ p {
 
 .service-card .body .subtitle {
   position: absolute;
+  margin-top: 2px;
   bottom: -100%;
   opacity: 0;
   visibility: hidden;
@@ -11574,7 +11575,7 @@ p {
 } */
 
 .service-card:hover .body .subtitle {
-  bottom: 7px;
+  /* bottom: 7px; */
   opacity: 1;
   visibility: visible;
 }
