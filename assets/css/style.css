@@ -11526,8 +11526,8 @@ p {
 
 .service-card {
   position: relative;
-  min-height: 230px;
-  border: 1px solid #dee2e6;
+  min-height: 100px;
+  /* border: 1px solid #dee2e6; */
   overflow: hidden;
   border-radius: 3px;
 }
@@ -11567,11 +11567,11 @@ p {
   }
 }
 
-.service-card:hover .body img.icon {
+/* .service-card:hover .body img.icon {
   margin-top: 5px;
   width: 45px;
   margin-bottom: 15px;
-}
+} */
 
 .service-card:hover .body .subtitle {
   bottom: 7px;
