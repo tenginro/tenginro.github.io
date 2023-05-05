@@ -3,6 +3,11 @@
   color: white;
 }
 
+#profilePic {
+  width: 150px;
+  height: 150px;
+}
+
 #skillsTable {
   display: flex;
   flex-direction: row;
